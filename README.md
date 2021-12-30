@@ -237,7 +237,7 @@ inputForm.addEventListener('submit', (event) => {
   event.preventDefault();
   const input = document.querySelector('input#searchByID');
   
-  console.log(input.value);
+  console.log(input);
 });
 ```
 
